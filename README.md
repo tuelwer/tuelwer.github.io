@@ -1,1 +1,1 @@
-This is the source code to Jon Barron's public academic website: https://jonbarron.info/. You are welcome to clone this code for your own personal use, just please attribute the source to the original website or to this repo. If you do clone this website, feel free to add an attribution link to your own downstream website in index.html if you want.
+My personal webpage is based on Jon Barrons [website](https://jonbarron.info/). The code is used with permission. If you like the template, checkout the [original repository](https://github.com/jonbarron/website).
