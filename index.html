@@ -1,11 +1,323 @@
----
-layout: layout
----
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-{% include intro.html %}
+  <title>Tobias Uelwer</title>
+  
+  <meta name="author" content="Tobias Uelwer">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/seal_icon.png">
+</head>
 
-{% include publications.html %}
+<body>
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr style="padding:0px">
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Tobias Uelwer</name>
+              </p>
+              <p>I am a PhD student at the <a href="https://cs.hhu.de">Heinrich Heine University Düsseldorf</a> supervised by <a href="https://www.cs.hhu.de/en/research-groups/machine-learning/our-team/team/harmeling">Stefan Harmeling</a>.
+              </p>
+              <p>
+                  I did my Bachelor's and Masters's degree in computer science with minor in mathematics in Düsseldorf.
+              </p>
+             
+              <p style="text-align:center">
+                <a href="mailto:tobias.uelwer@hhu.de">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=Y5WkfA8AAAAJ">Google Scholar</a> &nbsp/&nbsp
+                <a href="https://dblp.org/pid/242/9083.html&nbsp/&nbsp">DBLP</a>&nbsp/&nbsp
+                <a href="https://twitter.com/tuelwer">Twitter</a> &nbsp/&nbsp
+                <a href="https://github.com/tuelwer/">Github</a>
+              </p>
+            </td>
+            <td style="padding:2.5%;width:40%;max-width:40%">
+              <a href="images/me.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="images/me.jpg" class="hoverZoomLink"></a>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                  My studies focus on solving phase retrieval problems using deep neural networks but moreover I am enthusiastic about everything that involves pixels and machine learning. I also work on adversarial attacks (and their detection) for deep neural networks.
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2021-neurips-workshop.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2110.13688">
+                        <papertitle>A Closer Look at Reference Learning for Fourier Phase Retrieval</papertitle>
+                    </a>
+                    <br>
+                    <strong>Tobias Uelwer</strong>, Nick Rucks, Stefan Harmeling
+                    <br>
+                    <em>NeurIPS 2021 Workshop on Deep Learning and Inverse Problems</em>
+                    <br>
+                    <a href="data/bib/uelwer2021a.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/2110.13688">paper</a> / 
+                    <a href="https://github.com/tuelwer/reference-learning">code</a>
+                    <p></p>
+                    <p>We show how the Gerchberg-Saxton algorithm can be unrolled to learn a reference for Fourier phase retrieval and we analyze the performance gain of learned references over references that were not learned.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2021-mrm.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/mrm.28892">
+                        <papertitle>Spirometry‐based reconstruction of real‐time cardiac MRI: Motion control and quantification of heart-lung interactions</papertitle>
+                    </a>
+                    <br>
+                    Lena Maria Röwer, <strong>Tobias Uelwer</strong>, Janina Hußmann, Halima Malik, Monika Eichinger, Dirk Voit, Mark Oliver Wielpütz, Jens Frahm, Stefan Harmeling, Dirk Klee, Frank Pillekamp
+                    <br>
+                    <em>Magnetic Resonance in Medicine, 2021</em>
+                    <br>
+                    <a href="data/bib/rower2021spirometry.bib">bibtex</a> / 
+                    <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/mrm.28892">paper</a> / 
+                    <a href="https://doi.org/10.5281/zenodo.4899285">supplementary material</a>
+                    <p></p>
+                    <p>Real-time MRI combined with MR-compatible spirometry and retrospective binning can be used for image stabilization and offers opportunities to analyze heart-lung interactions.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2021-icann-non-iterative.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2106.10195">
+                        <papertitle>Non-Iterative Phase Retrieval With Cascaded Neural Networks</papertitle>
+                    </a>
+                    <br>
+                    <strong>Tobias Uelwer</strong>, Tobias Hoffmann, Stefan Harmeling
+                    <br>
+                    <em>International Conference on Artificial Neural Networks (ICANN 2021)</em>
+                    <br>
+                    <a href="data/bib/uelwer2021non.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/2106.10195">paper</a> / 
+                    <a href="data/posters/uelwer2021non.pdf">poster</a> 
+                    <p></p>
+                    <p>The reconstruction performance of end-to-end learned methods for Fourier phase retrieval can be improved by using a cascade of neural networks.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2021-icann-multistep.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/abs/2106.10075.pdf">
+                        <papertitle>Learning to Plan via a Multi-Step Policy Regression Method</papertitle>
+                    </a>
+                    <br>
+                    Stefan Wagner, Michael Janschek, <strong>Tobias Uelwer</strong>, Stefan Harmeling
+                    <br>
+                    <em>International Conference on Artificial Neural Networks (ICANN 2021)</em>
+                    <br>
+                    <a href="data/bib/wagner2021learning.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/abs/2106.10075.pdf">paper</a> / 
+                    <a href="data/posters/wagner2021learning.pdf">poster</a> 
+                    <p></p>
+                    <p>Our proposed policy horizon regression method learns a policy vector using policy distillation to predict multiple sequential actions for a single observation.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2021-ki.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2107.04435.pdf">
+                        <papertitle>Learning to Detect Adversarial Examples Based on Class Scores</papertitle>
+                    </a>
+                    <br>
+                    <strong>Tobias Uelwer</strong>, Felix Michels, Oliver De Candido
+                    <br>
+                    <em>German Conference on Artificial Intelligence (KI 2021)</em>
+                    <br>
+                    <a href="data/bib/uelwer2021learning.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/2107.04435.pdf">paper</a> / 
+                    <a href="data/slides/uelwer2021learning.pdf">slides</a> 
+                    <p></p>
+                    <p>Adversarial examples can be detected surprisingly well by training a support vector classifier on the class scores.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2020-smaller.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2010.05767.pdf">
+                        <papertitle>Smaller World Models for Reinforcement Learning</papertitle>
+                    </a>
+                    <br>
+                    Jan Robine, <strong>Tobias Uelwer</strong>, Stefan Harmeling
+                    <br>
+                    <em>arXiv preprint</em>
+                    <br>
+                    <a href="data/bib/robine2020smaller.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/2010.05767.pdf">paper</a>
+                    <p></p>
+                    <p>World models for Atari can be shrunk by using a vector quantized-variational autoencoder (VQ- VAE) to encode observations.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2020-icpr-phase.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/1912.04981.pdf">
+                        <papertitle>Phase Retrieval Using Conditional Generative Adversarial Networks</papertitle>
+                    </a>
+                    <br>
+                    <strong>Tobias Uelwer</strong>, Alexander Oberstraß, Stefan Harmeling
+                    <br>
+                    <em>International Conference on Pattern Recognition (ICPR 2020)</em>
+                    <br>
+                    <a href="data/bib/uelwer2020phase.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/1912.04981.pdf">paper</a>  / 
+                    <a href="data/posters/uelwer2020phase.pdf">poster</a> 
+                    <p></p>
+                    <p>Conditional generative adversarial networks can be used to achieve state-of-the-art reconstructions for compressive and Fourier phase retrieval.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2020-icpr-fast.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/2006.14970.pdf">
+                        <papertitle>Fast Multi-Level Foreground Estimation</papertitle>
+                    </a>
+                    <br>
+                    Thomas Germer, <strong>Tobias Uelwer</strong>, Stefan Conrad, Stefan Harmeling
+                    <br>
+                    <em>International Conference on Pattern Recognition (ICPR 2020)</em>
+                    <br>
+                    <a href="data/bib/germer2020fast.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/2006.14970.pdf">paper</a>  / 
+                    <a href="data/posters/germer2020fast.pdf">poster</a> 
+                    <p></p>
+                    <p>We propose a novel method for foreground estimation of an image given its alpha matte.</p>
+                </td>
+            </tr>
+            
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2020-joss.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://www.theoj.org/joss-papers/joss.02481/10.21105.joss.02481.pdf">
+                        <papertitle>PyMatting: A Python Library for Alpha Matting</papertitle>
+                    </a>
+                    <br>
+                    Thomas Germer, <strong>Tobias Uelwer</strong>, Stefan Conrad, Stefan Harmeling
+                    <br>
+                    <em>Journal of Open Source Software (JOSS), 2020</em>
+                    <br>
+                    <a href="data/bib/germer2020pymatting.bib">bibtex</a> / 
+                    <a href="https://www.theoj.org/joss-papers/joss.02481/10.21105.joss.02481.pdf">paper</a> / 
+                    <a href="https://github.com/pymatting/pymatting">repository</a> / 
+                    <a href="https://pymatting.github.io">docs</a>
+                    
+                    <p></p>
+                    <p>PyMatting toolbox for Python which implements various approaches to solve the alpha matting problem. Our library is also able to extract the foreground of an image given the alpha matte. </p>
+                </td>
+            </tr>
 
-{% include service.html %}
 
-{% include teaching.html %}
+            <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                    <img src='images/2019-icml-workshop.png', width="200", heigh="200">
+                </td>
+                <td style="padding:20px;width:75%;vertical-align:middle">
+                    <a href="https://arxiv.org/pdf/1906.03612">
+                        <papertitle>On the Vulnerability of Capsule Networks to Adversarial Attacks</papertitle>
+                    </a>
+                    <br>
+                    Felix Michels, <strong>Tobias Uelwer</strong>, Eric Upschulte, Stefan Harmeling
+                    <br>
+                    <em>ICML 2019 Workshop on Security and Privacy of Machine Learning</em>
+                    <br>
+                    <a href="data/bib/michels2019vulnerability.bib">bibtex</a> / 
+                    <a href="https://arxiv.org/pdf/1906.03612">paper</a> / 
+                    <a href="data/posters/michels2019vulnerability.pdf">poster</a>
+                    <p></p>
+                    <p>
+This paper extensively evaluates the vulnerability of capsule networks to different adversarial attacks. Our experiments show that capsule networks can be fooled as easily as convolutional neural networks.</p>
+                </td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Reviewing</heading>
+              <p>
+                  <ul>
+                    <li><b>Conferences/Workshops:</b> ICLR 2022, NeurIPS 2021, ICANN 2021, ICLR 2021, ML Reproducibility Challenge 2020, NeurIPS 2019 Reproducibility Challenge, NeurIPS 2019</li>
+                    <li><b>Journals:</b> IEEE Transactions on Neural Networks and Learning Systems, Journal of Open Source Software</li>
+                  </ul>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+    
+    <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
+          <tr>
+            <td>
+              <heading>Teaching</heading>
+              <p>
+                  My experience as a teaching assistant at the Department of Computer Science at the Heinrich Heine University:
+                  <ul>
+                    <li><b>Programming:</b> winter 2020</li>
+                    <li><b>Reinforcement Learning: </b> summer 2020</li>
+                    <li><b>Deep Learning: </b> summer 2019, summer 2020, summer 2021</li>
+                    <li><b>Machine Learning: </b> winter 2017, winter 2018, winter 2019, winter 2020, winter 2021</li>
+                    <li><b>Causality:</b> summer 2018, summer 2019, summer 2021</li>
+                    <li><b>Algorithms and Data Structures:</b> winter 2015, winter 2018</li>
+                    <li><b>Database Systems: </b> winter 2015, winter 2017</li>
+                    <li><b>C Programming: </b> summer 2016</li>
+                    <li><b>Theoretical Foundations of Computer Science: </b> summer 2016</li>
+                  </ul>
+              </p>
+            </td>
+          </tr>
+        </tbody>
+    </table>
+        
+    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <tr>
+            <td style="padding:0px">
+                <br>
+                <p style="text-align:right;font-size:small;">
+                    This website is based on the template of Jon Barron's <a href="https://jonbarron.info/">website</a>. Used with permission.
+                </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
