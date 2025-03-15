@@ -147,3 +147,22 @@ span.highlight {
   padding: 20px;
   vertical-align: middle;
 }
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+  .publication-image {
+    width: 100%;
+    max-width: 80px; 
+    height: auto;
+  }
+  
+  .publication-table td.image-cell {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  .publication-table td.text-cell {
+    width: 75%
+    padding: 20px;
+  }
+}
