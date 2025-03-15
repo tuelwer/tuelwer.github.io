@@ -157,12 +157,12 @@ span.highlight {
   }
   
   .publication-table td.image-cell {
-    width: 25%;
-    padding: 20px;
+    width: 30%;
+    padding: 5px;
   }
   
   .publication-table td.text-cell {
-    width: 75%;
+    width: 70%;
     padding: 20px;
   }
 }
