@@ -138,7 +138,10 @@ span.highlight {
 
 .publication-table td.image-cell {
   width: 25%;
-  padding: 20px;
+  padding-top: 20px; 
+  padding-right: 0px; 
+  padding-bottom: 20px; 
+  padding-left: 20px;
   vertical-align: middle;
 }
 
@@ -152,13 +155,15 @@ span.highlight {
 @media screen and (max-width: 768px) {
   .publication-image {
     width: 100%;
-    max-width: 80px; 
     height: auto;
   }
   
   .publication-table td.image-cell {
     width: 30%;
-    padding: 5px;
+    padding-top: 20px; 
+    padding-right: 0px; 
+    padding-bottom: 20px; 
+    padding-left: 20px
   }
   
   .publication-table td.text-cell {
